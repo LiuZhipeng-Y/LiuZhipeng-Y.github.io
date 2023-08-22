@@ -6,12 +6,12 @@ url:
 date_format: "ordinal"
 title: peng
 subtitle: ""
-description: "朋的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+description: "朋的个人博客"
+keywords: Bioinfo
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2023
 # 源码仓库，请替换成自己的
 repository: zhipengliu92/zhipengliu92.github.io
 # 对 css 和 js 资源的 cdn 加速配置
@@ -28,7 +28,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-05-03
+        start_date: 2023-08-22
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -57,12 +57,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Zhipeng Liu
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: zhipengliu92
+location: Kunming, China
+email: zhipengliu996@gmail.com
 
 # ---------------- #
 #    Navigation    #
