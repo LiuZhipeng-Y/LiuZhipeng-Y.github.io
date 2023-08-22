@@ -5,7 +5,10 @@ css: ['pages/index.css']
 comments: false
 ---
 
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+</head>
+
 {% assign assets_base_url = site.url %}
 {% if site.cdn.jsdelivr.enabled %}
 {% assign assets_base_url = "https://fastly.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
