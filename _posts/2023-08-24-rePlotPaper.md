@@ -5,7 +5,6 @@ description: 复现一篇文章中的所有图，不包括手工绘制的图。
 author: Z.P.L.
 categories: R
 keywords: R code bioinfo Linux
-topmost: true
 ---
 
 
