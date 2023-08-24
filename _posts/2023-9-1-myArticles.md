@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Linux
-subtitle: A personal website.
+description: Linux中grep的使用技巧。
 author: Z.P.L.
 categories: Linux
-top-most: true
+keywords: Linux code
+topmost: true
 ---
 
 
