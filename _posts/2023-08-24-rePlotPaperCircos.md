@@ -5,6 +5,7 @@ description: 复现最后的circos图。
 author: Z.P.L.
 categories: R
 keywords: R code bioinfo Linux
+highlight_theme: base16.monokai
 ---
 
 **10.1093/biolre/ioac216**
