@@ -7,9 +7,6 @@ categories: R
 keywords: R code bioinfo Linux
 ---
 
-Circos
-================
-
 **10.1093/biolre/ioac216**
 
 # 1 用到的R包
