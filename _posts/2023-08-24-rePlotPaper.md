@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Linux
-description: Linux中grep的使用技巧。
+title: 文章图复现
+description: 复现一篇文章中的所有图，不包括手工绘制的图。
 author: Z.P.L.
-categories: Linux
-keywords: Linux code
+categories: R
+keywords: R code bioinfo Linux
 topmost: true
 ---
 
@@ -76,7 +76,7 @@ FG %>%
 plot_grid(fig2b1,fig2b2,align = "hv",axis = "lr",nrow = 1) ##组合图形
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-2-1.png)<!-- -->
 
 ## 1.3 画Fig2C
 
@@ -107,7 +107,7 @@ len.box.dat %>%
   theme(legend.position = "none")
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-3-1.png)<!-- -->
 
 ### 1.3.2 柱形图
 
@@ -173,7 +173,7 @@ len.bar.dat %>%
 cowplot::plot_grid(fig2c2.1,fig2c2.2,nrow = 1,labels = c("before","after"))
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-4-1.png)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -241,7 +241,7 @@ venn.diagram(x = list(Testis=venn.gene[venn.gene$type=="GW.count",]$associated_g
 cowplot::plot_grid(venn.gene.p)
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-6-1.png)<!-- -->
 
 ## 2.3 Fig3D
 
@@ -273,7 +273,7 @@ sqanti3_class %>%
 cowplot::plot_grid(p.fig3d)
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-7-1.png)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -388,7 +388,7 @@ ggplot(volcano.data,aes(x=log2FoldChange,y= -1*log10(padj),label=genename)) + #�
   xlim(c(-20,20)) ##warning信息不用管
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-9-1.png)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -420,7 +420,7 @@ pie(fig5a.data[fig5a.data$sample=="FG.count",]$n,
     main = "Epididymis")
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-10-1.png)<!-- -->
 
 ``` r
 #画新的图时要关闭画布#dev.off()
@@ -479,7 +479,7 @@ venn.diagram(x = list(CNCI=cnci[cnci$FG.count>0,]$pbid,CPC2=cpc2[cpc2$FG.count>0
 cowplot::plot_grid(nc.gw.venn,nc.fg.venn,labels = c("Testis","Epididymis"))
 ```
 
-![](fig2_5_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](/images/posts/replotBOR/unnamed-chunk-12-1.png)<!-- -->
 
 ------------------------------------------------------------------------
 
