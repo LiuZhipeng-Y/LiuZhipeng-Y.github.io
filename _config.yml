@@ -149,23 +149,23 @@ disqus:
     username: 
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: 
+    repo: 
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 
+        client_secret: 
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: 
+    repo: 
+    clientID: 
+    clientSecret: 
 # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
+    repo: 
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: mzlogin/blog-comments
+    repo: 
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
     repo: zhipengliu92/zhipengliu92.github.io
@@ -188,7 +188,7 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: # G-20FLEG5Q2W
+    analytics_id: 
     adsense:
         enabled: false
         footer: false
