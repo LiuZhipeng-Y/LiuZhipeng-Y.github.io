@@ -20,7 +20,7 @@ permalink: /about/
 坚信熟能生巧，努力改变人生。
 
 
-
+{% for skill in site.data.skills %}
 ### {{ skill.name }}
 <div class="btn-inline">
 {% for keyword in skill.keywords %}
