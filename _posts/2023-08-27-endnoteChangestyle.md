@@ -7,8 +7,6 @@ categories: Endnote
 keywords: Software skill
 ---
 
-Endnote修改参考文献的样式。
-
 此处使用的是**endnote 20**
 
 endnote X9和20的界面不一样，但修改style的方法是一样的
