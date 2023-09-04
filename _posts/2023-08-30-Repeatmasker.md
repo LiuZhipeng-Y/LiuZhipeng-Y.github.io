@@ -3,7 +3,7 @@ layout: post
 title: Repeatmasker重复元件分析
 description:
 author: Z.P.L.
-categories: software
+categories: Linux software
 keywords: biology
 ---
 

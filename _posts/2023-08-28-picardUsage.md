@@ -3,7 +3,7 @@ layout: post
 title: Picard使用
 description:
 author: Z.P.L.
-categories: picard
+categories: software
 keywords: Software skill linux bioinfomatics
 ---
 
