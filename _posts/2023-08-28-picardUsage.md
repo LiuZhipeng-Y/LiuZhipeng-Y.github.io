@@ -7,9 +7,7 @@ categories: Linux_software
 keywords: Software skill linux bioinfomatics
 ---
 
-picard有很多有用的工具，了解它的用法，避免重复造车
-
-也不会造车😓
+picard有很多有用的工具，了解它的用法
 
 ## 调用Picard
 
