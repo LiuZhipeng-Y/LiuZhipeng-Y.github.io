@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RNAseq流程--基于购买自生信技能树的服务器
+title: RNAseq流程--基于购买的服务器
 description: pipeline for RNA-seq
 author: Z.P.L.
 categories: pipeline
@@ -33,4 +33,8 @@ salmon quant \
 	-p 20 \
 ```
 
+
+
 see more detail <https://github.com/sunyumail93/PipeRNAseq/blob/master/PipeRNAseq.sh>
+
+
