@@ -60,7 +60,7 @@ highlight_theme:
 author: Zhipeng Liu
 organization: 
 organization_url: 
-github_username: zhipengliu92
+github_username: LiuZhipeng-Y
 location: Kunming, China
 email: zhipengliu996@gmail.com
 
@@ -168,7 +168,7 @@ beaudar:
     repo: 
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: zhipengliu92/zhipengliu92.github.io
+    repo: LiuZhipeng-Y/LiuZhipeng-Y.github.io
     repo-id: R_kgDOKJ4Oyw
     category: Announcements
     category-id: DIC_kwDOKJ4Oy84CYxGr
