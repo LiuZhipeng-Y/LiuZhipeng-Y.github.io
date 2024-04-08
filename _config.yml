@@ -13,7 +13,7 @@ encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2023
 # 源码仓库，请替换成自己的
-repository: liuzhipengy/liuzhipengy.github.io
+repository: zhipengliu92/zhipengliu92.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -60,7 +60,7 @@ highlight_theme:
 author: Zhipeng Liu
 organization: 
 organization_url: 
-github_username: LiuZhipeng-Y
+github_username: zhipengliu92
 location: Kunming, China
 email: zhipengliu996@gmail.com
 
@@ -168,7 +168,7 @@ beaudar:
     repo: 
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: liuzhipengy/liuzhipengy.github.io
+    repo: zhipengliu92/zhipengliu92.github.io
     repo-id: R_kgDOKJ4Oyw
     category: Announcements
     category-id: DIC_kwDOKJ4Oy84CYxGr
